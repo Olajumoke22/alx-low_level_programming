@@ -1,25 +1,19 @@
-
-
-
+#include "main.h"
 
 /**
- *main - program execution starts here
- *Description: this is the main function
- *Return: an integer to signify success or failure
+ * main - program execution starts here
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
+	char ch[] = "_putchar";
+	int i;
 
-	int _putchar(char c);
-
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	for (i = 0; ch[i] != '\0'; i++)
+	{
+		_putchar(ch[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
