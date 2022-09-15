@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	int number;int number;
+	int number;
 
 	for (number = 1; number <= 100; number++)
 	{
