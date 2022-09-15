@@ -3,7 +3,7 @@
 /**
  * print_square - prints a square of hash (#) character
  * @size: the size of the square
- * Description: prints a square of hash (#) characterDescription: prints a square of hash (#) character
+ * Description: prints a square of hash (#) character
  * Return: no return.
  */
 void print_square(int size)
